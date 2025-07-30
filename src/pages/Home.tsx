@@ -7,7 +7,7 @@ export default function Home() {
         {/* Left: Text */}
         <div className="md:w-1/2 text-center md:text-left">
           <h1 className="text-5xl font-bold text-gray-800 mb-6">Hi, I’m Rama!</h1>
-          <p className="text-2xl text-gray-700">
+          <p className="text-2xl text-gray-700 italic">
             Aspiring UI/UX & Frontend Developer <br />
             HCI Master’s Student @ Georgia Tech
           </p>
@@ -21,7 +21,7 @@ export default function Home() {
           {/* Profile image */}
           <img
             src={profilePic}
-            alt="Rama"
+            alt="Image of Rama"
             className="relative w-80 h-96 object-cover rounded-md z-10"
           />
         </div>

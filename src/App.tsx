@@ -1,12 +1,19 @@
-
-import Home from './pages/Home'
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <main className="min-h-screen bg-pink-100 p-4">
-      <Home />
-    </main>
-  )
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="/about" element={<About />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+    </>
+  );
 }
 
-export default App
+export default App;
