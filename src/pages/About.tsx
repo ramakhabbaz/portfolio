@@ -4,14 +4,12 @@ export default function About() {
         <div className="relative max-w-4xl w-full">
           {/* Shadow box behind */}
         <div
-          className="absolute inset-0 translate-x-3 translate-y-3 rounded-xl z-0"
-          style={{ backgroundColor: "#8D0060" }} // ✅ Dark pink shadow
+          className="absolute inset-0 translate-x-3 translate-y-3 rounded-xl z-0 bg-pink-800"
         />
 
         {/* Foreground card */}
         <div
-          className="relative rounded-xl p-8 md:p-12 shadow-md z-10 text-center"
-          style={{ backgroundColor: "#FF84D8" }} // ✅ Bright pink card
+          className="relative rounded-xl p-8 md:p-12 shadow-md z-10 text-center bg-pink-300"
         >
             <h1 className="text-4xl font-bold text-gray-700 mb-6">
               🌸 Hi, I’m Rama! 🌸
