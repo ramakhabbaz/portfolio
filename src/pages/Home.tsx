@@ -16,7 +16,7 @@ export default function Home() {
         {/* Right: Profile Image */}
         <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 relative">
           {/* Shadow box */}
-          <div className="absolute w-80 h-96 bg-pink-800 rounded-md z-0 translate-x-3 translate-y-3" />
+          <div className="absolute w-80 h-96 bg-pink-400 rounded-md z-0 translate-x-3 translate-y-3" />
 
           {/* Profile image */}
           <img
