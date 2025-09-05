@@ -12,7 +12,7 @@ export default function Contact() {
           className="relative rounded-xl p-8 md:p-12 shadow-md z-10 bg-pink-300"
         >
             <h1 className="text-4xl font-bold text-gray-700 mb-6">
-              Contact Me!
+              Contact Me! 📲
             </h1>
             <form action="https://formspree.io/f/xanbdjqd" method="POST" className="space-y-6">
                 <input type="text" name="name" required placeholder="Name" className="w-full p-3 rounded-md border border-gray-300"/>

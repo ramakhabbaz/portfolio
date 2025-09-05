@@ -6,12 +6,12 @@ export default function About() {
         <div className="relative max-w-4xl w-full">
           {/* Shadow box behind */}
         <div
-          className="absolute inset-0 translate-x-3 translate-y-3 rounded-xl z-0 bg-pink-300"
+          className="absolute inset-0 translate-x-3 translate-y-3 rounded-xl z-0 bg-pink-800"
         />
 
         {/* Foreground card */}
         <div
-          className="relative rounded-xl p-8 md:p-12 shadow-md z-10 text-center bg-pink-200"
+          className="relative rounded-xl p-8 md:p-12 shadow-md z-10 text-center bg-pink-300"
         >
             <h1 className="text-4xl font-bold text-gray-700 mb-6">
             🌷 Hi, I’m Rama! 🌷
@@ -27,7 +27,7 @@ export default function About() {
             </p>
 
             {/* Horizontal Divider*/}
-            <hr className="border-pink-400 my-10"/>
+            <hr className="border-pink-800 my-10"/>
             {/* Resume Section */}
             <h2 className="text-2xl font-bold text-gray-700 mb-8">Resume</h2>
             <div className="w-11/12 h-[500px] mx-auto">
@@ -39,7 +39,7 @@ export default function About() {
             </div>
 
             {/* Horizontal Divider*/}
-            <hr className="border-pink-400 my-10"/>
+            <hr className="border-pink-800 my-10"/>
 
             {/* Fun Facts Section */}
             <h2 className="text-2xl font-bold text-gray-700 mb-8">I love...</h2>
