@@ -6,7 +6,9 @@ export default function Footer() {
         <div className="flex items-center gap-4 mb-4 md:mb-0">
           <p className="text-3xl">🌷</p>
           <div>
-            <h2 className="text-xl font-semibold text-gray-800">Get In Touch</h2>
+            <h2 className="text-xl font-semibold text-gray-800">
+              Get In Touch
+            </h2>
             <p className="text-sm italic text-gray-600">I'd love to chat!</p>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile-pic.jpg';
+import profilePic from "../assets/profile-pic.jpg";
 
 export default function Home() {
   return (
@@ -6,7 +6,9 @@ export default function Home() {
       <div className="max-w-7xl w-full bg-pink-300 rounded-2xl shadow-lg flex flex-col md:flex-row items-center justify-between p-8">
         {/* Left: Text */}
         <div className="text-center md:text-left">
-          <h1 className="text-5xl font-bold text-gray-800 mb-6">Hi, I’m Rama!👋</h1>
+          <h1 className="text-5xl font-bold text-gray-800 mb-6">
+            Hi, I’m Rama!👋
+          </h1>
           <p className="text-2xl text-gray-700 italic">
             Aspiring UI/UX & Frontend Developer <br />
             Master’s Student @ Georgia Tech in CS: HCI
