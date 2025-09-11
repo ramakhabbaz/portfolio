@@ -1,5 +1,3 @@
-import resume from '../assets/Resume.pdf';
-
 export default function About() {
     return (
       <section className="bg-pink-100 min-h-screen flex items-center justify-center px-6 py-16">
@@ -29,10 +27,20 @@ export default function About() {
             {/* Horizontal Divider*/}
             <hr className="border-pink-800 my-10"/>
             {/* Resume Section */}
-            <h2 className="text-2xl font-bold text-gray-700 mb-8">Resume</h2>
+            <h2 className="text-2xl font-bold text-gray-700">Resume</h2>
+            <div className="text-center mb-8">
+                <a
+                    href="/Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="underline text-pink-800 hover:text-pink-900 text-m"
+                >
+                    Open Resume ↗
+                </a>
+            </div>
             <div className="w-11/12 h-[500px] mx-auto">
                 <iframe
-                    src={resume}
+                    src="/Resume.pdf"
                     className="w-full h-full rounded-md border"
                     title="Rama Khabbaz's Resume"
                 />
