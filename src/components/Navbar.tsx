@@ -10,8 +10,10 @@ const navItems = [
 export default function Navbar() {
   return (
     <header className="bg-pink-200 shadow-md sticky top-0 z-50">
-      <nav className="max-w-full mx-auto px-10 py-6 flex items-center justify-between">
+      <nav className="max-w-full mx-auto px-14 py-6 flex items-center justify-between">
+        {/* Left: Name*/}
         <div className="text-xl font-bold text-pink-800">Rama Khabbaz 🌷</div>
+        {/* Right: Navbar */}
         <ul className="flex space-x-6">
           {navItems.map((item) => (
             <li key={item.name}>
@@ -19,7 +21,9 @@ export default function Navbar() {
                 to={item.path}
                 className={({ isActive }) =>
                   `text-lg ${
-                    isActive ? "text-pink-800 font-bold" : "text-gray-700"
+                    isActive
+                      ? "text-pink-800 font-bold"
+                      : "text-gray-700 hover:text-pink-900"
                   }`
                 }
               >

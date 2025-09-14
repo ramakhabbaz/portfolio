@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-pink-200 py-8 px-10">
+    <footer className="bg-pink-200 py-8 px-14">
       <div className="max-w-full mx-auto flex flex-col md:flex-row justify-between items-center">
         {/* Left section: Title + Flower + Subtitle */}
         <div className="flex items-center gap-4 mb-4 md:mb-0">
