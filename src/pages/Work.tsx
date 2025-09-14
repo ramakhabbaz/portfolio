@@ -28,8 +28,13 @@ export default function Work() {
           </h2>
           <p className="text-sm text-gray-600 italic mb-4">In Progress</p>
           <p className="text-lg text-gray-700 mb-6">
-            [Brief project description goes here. What was the goal? What did
-            you do?]
+            At age 16, I was diagnosed with ulcerative colitis. After years of
+            struggling with symptoms and feeling alone, I realized an app could
+            aid those with gut health issues. The prototype of my app includes
+            features to track healthy habits, learn more about gut health,
+            journal daily about side effects, find recipes, and socialize with
+            others. The final app is still in progress. Read on to see the
+            development of my prototypes in Figma.
           </p>
 
           <hr className="border-pink-800 mb-6" />
@@ -114,12 +119,42 @@ export default function Work() {
         {/* Project Card Portfolio Website */}
         <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
           <h2 className="text-2xl font-bold text-gray-800 mb-2">
-            Portfolio Website 😉
+            <a
+              href="https://ramakhabbaz-portfolio.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-pink-900 hover:underline"
+            >
+              Portfolio Website 😉 ↗
+            </a>
           </h2>
           <p className="text-sm text-gray-600 italic mb-4">September 2025</p>
+          <p className="text-lg text-gray-700 mb-2">
+            I designed and coded this website as a personal portfolio to
+            showcase my professional experiences and allow viewers to connect
+            with me on a more personal level. My goal was to develop an
+            aesthetically pleasing site that reflected both my personality and
+            technical skills. I designed the layout and flow of this site using
+            Figma. I coded it using React, TypeScript, Vite, and Tailwind CSS,
+            with routing powered by React Router. This project helped me
+            strengthen my front-end development skills and apply best practices
+            in UI/UX, code modularity, and deployment workflows using Netlify.
+            <br />I designed the layout and flow of this site using Figma. I
+            created it using React, TypeScript, Vite, and Tailwind CSS, with
+            routing powered by React Router. This project helped me strengthen
+            my front-end development skills and apply best practices in UI/UX,
+            code modularity, and deployment using Netlify.
+          </p>
           <p className="text-lg text-gray-700 mb-6">
-            [Brief project description goes here. What was the goal? What did
-            you do?]
+            See my code in Github{" "}
+            <a
+              href="https://github.com/ramakhabbaz/portfolio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline text-gray-600 hover:text-pink-900 italic"
+            >
+              here.
+            </a>
           </p>
 
           <hr className="border-pink-800 mb-6" />
@@ -155,7 +190,7 @@ export default function Work() {
           <div className="mb-8">
             <h3 className="text-lg font-semibold">Hi-Fi Prototype</h3>
             <a
-              href="https://ramakhabbaz-portfolio.netlify.app/"
+              href="https://www.figma.com/design/teyS0g5SuQgzIeYVcW1Yun/Portfolio-Hi-FI?t=XA3U6tA5JIcsyW1F-1"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-gray-600 hover:text-pink-900 italic"
@@ -173,69 +208,30 @@ export default function Work() {
               </a>
             </div>
           </div>
-
-          {/*Final Product*/}
-          <div className="mb-8">
-            <h3 className="text-lg font-semibold">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-pink-900 hover:underline"
-              >
-                Final Portfolio ↗
-              </a>
-            </h3>
-            <a
-              href="https://github.com/ramakhabbaz/portfolio"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline text-gray-600 hover:text-pink-900 italic"
-            >
-              GitHub Link
-            </a>
-            <div className="flex flex-wrap gap-4 justify-center">
-              <a
-                href={portfolioFinal}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={portfolioFinal}
-                  alt="Final Website Image"
-                  className="rounded shadow w-[300px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Cancer Detection Website */}
-        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
-          <h2 className="text-2xl font-bold text-gray-800 mb-2">
-            <a
-              href="https://github.com/gt-big-data/cancer-detection"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-pink-900 hover:underline"
-            >
-              Big Data Big Impact's Cancer Detection ↗
-            </a>
-          </h2>
-          <p className="text-sm text-gray-600 italic mb-4">September 2025</p>
-          <p className="text-lg text-gray-700 mb-6">
-            [Brief project description goes here. What was the goal? What did
-            you do?]
-          </p>
         </div>
 
         {/* Project Card Cooking App */}
         <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
           <h2 className="text-2xl font-bold text-gray-800 mb-2">Cooking App</h2>
-          <p className="text-sm text-gray-600 italic mb-4">In Progress</p>
+          <p className="text-sm text-gray-600 italic mb-4">April 2024</p>
           <p className="text-lg text-gray-700 mb-6">
-            [Brief project description goes here. What was the goal? What did
-            you do?]
+            Within a group in CS 3751: Intro to UI Design, we created a Figma
+            prototype for an app that provides detailed cooking guidelines for
+            beginners and curated recipes based on ingredient inventory. The
+            goal is to address the issue of students' financial and time
+            constraints regarding cooking healthy meals. We each conducted
+            detailed user research, potential user interviews, heuristic
+            evaluation and user testing interviews to iterate. We also each
+            covered one feature of the app, mine being cooking guidelines for
+            beginners.
+            <br />
+            As a team, we conducted comprehensive user research including
+            interviews with potential users to evaluate needs, as well as
+            heuristic evaluations and user testing for design iteration. Each
+            team member was responsible for designing and prototyping a core
+            feature of the app. My focus was on developing the beginner-friendly
+            cooking guidelines pages to support those who are new in the
+            kitchen.
           </p>
 
           <hr className="border-pink-800 mb-6" />
@@ -273,6 +269,29 @@ export default function Work() {
               </a>
             </div>
           </div>
+        </div>
+
+        {/* Cancer Detection Website */}
+        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
+          <h2 className="text-2xl font-bold text-gray-800 mb-2">
+            <a
+              href="https://github.com/gt-big-data/cancer-detection"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-pink-900 hover:underline"
+            >
+              Big Data Big Impact's Cancer Detection ↗
+            </a>
+          </h2>
+          <p className="text-sm text-gray-600 italic mb-4">May 2023</p>
+          <p className="text-lg text-gray-700 mb-6">
+            I worked on the data visualization team to create a website for the
+            cancer detection project within Big Data Big Impact at Georgia Tech.
+            Our goal was to create a program that made it easier for doctors in
+            underprivileged areas to assess cancer results.
+            <br /> I personally implemented the critical tumor image upload
+            button to provide an accessibility-friendly user experience.
+          </p>
         </div>
       </div>
     </section>
