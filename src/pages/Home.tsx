@@ -3,7 +3,6 @@ import profilePic from "../assets/profile-pic.jpg";
 export default function Home() {
   return (
     <section className="min-h-screen bg-pink-100 flex items-center justify-center px-6 py-12 md:">
-      {/* */}
       <div className="relative max-w-6xl w-full">
         {/* Shadow card behind main content card */}
         <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-xl z-0 bg-pink-800" />
@@ -17,8 +16,8 @@ export default function Home() {
                 Hi, I’m Rama! 👋
               </h1>
               <p className="text-xl text-gray-600 italic">
-                Aspiring UI/UX Designer & Frontend Developer <br />
-                Master’s Student @ Georgia Tech in CS, HCI
+                Master’s Student @ Georgia Tech in CS, HCI <br />
+                Aspiring UI/UX Designer & Frontend Developer
               </p>
             </div>
 
