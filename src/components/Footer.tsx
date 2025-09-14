@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="flex items-center gap-4 mb-4 md:mb-0">
           <p className="text-3xl">🌷</p>
           <div>
-            <h2 className="text-xl font-semibold text-gray-800">
+            <h2 className="text-xl font-semibold text-gray-700">
               Get In Touch
             </h2>
             <p className="text-sm italic text-gray-600">I'd love to chat!</p>
@@ -14,23 +14,30 @@ export default function Footer() {
         </div>
 
         {/* Right section: Contact links */}
-        <div className="flex items-center space-x-6">
-          <a
-            href="mailto:ramakhabbaz@gmail.com"
-            className="text-lg text-pink-800 hover:underline"
-          >
-            Email
-          </a>
-          <span className="text-gray-600">/</span>
-          <a
-            href="https://linkedin.com/in/rama-khabbaz"
-            className="text-lg text-pink-800 hover:underline"
-            target="_blank"
-            /* for safety */
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
+        <div className="w-full md:w-auto space-y-2">
+          {/* Email row */}
+          <div className="flex justify-between w-full md:w-96">
+            <span className="text-gray-700 font-medium">Email 📧</span>
+            <a
+              href="mailto:ramakhabbaz@gmail.com"
+              className="text-pink-800 hover:underline text-right italic"
+            >
+              ramakhabbaz@gmail.com
+            </a>
+          </div>
+
+          {/* LinkedIn row */}
+          <div className="flex justify-between w-full md:w-96">
+            <span className="text-gray-700 font-medium">LinkedIn 💼</span>
+            <a
+              href="https://linkedin.com/in/rama-khabbaz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-pink-800 hover:underline text-right italic"
+            >
+              linkedin.com/in/rama-khabbaz
+            </a>
+          </div>
         </div>
       </div>
     </footer>
