@@ -10,11 +10,11 @@ const navItems = [
 export default function Navbar() {
   return (
     <header className="bg-pink-200 shadow-md sticky top-0 z-50">
-      <nav className="max-w-full mx-auto px-14 py-6 flex items-center justify-between">
+      <nav className="max-w-full mx-auto px-4 py-6 flex flex-row items-center justify-between flex-wrap">
         {/* Left: Name*/}
         <div className="text-xl font-bold text-pink-800">Rama Khabbaz 🌷</div>
         {/* Right: Navbar */}
-        <ul className="flex space-x-6">
+        <ul className="flex flex-row flex-wrap gap-4 md:gap-6 justify-end">
           {navItems.map((item) => (
             <li key={item.name}>
               <NavLink

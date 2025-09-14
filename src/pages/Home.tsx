@@ -12,25 +12,25 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-10">
             {/* Left: Text */}
             <div className="text-center md:text-left">
-              <h1 className="text-5xl font-bold text-pink-900 mb-6">
+              <h1 className="text-3xl md:text-5xl font-bold text-pink-900 mb-6">
                 Hi, I’m Rama! 👋
               </h1>
-              <p className="text-xl text-gray-600 italic">
+              <p className="text-md md:text-xl text-gray-600 italic">
                 Master’s Student @ Georgia Tech in CS, HCI <br />
                 Aspiring UI/UX Designer & Frontend Developer
               </p>
             </div>
 
             {/* Right: Profile Image */}
-            <div className="md:w-1/2 flex justify-center mt-10 md:mt-0 relative">
+            <div className="md:w-1/2 flex justify-center mt-2 md:mt-0 relative">
               {/* Shadow box behind profile image*/}
-              <div className="absolute w-80 h-96 bg-pink-700 rounded-md z-0 translate-x-3 translate-y-3" />
+              <div className="absolute w-full max-w-[320px] h-[400px] bg-pink-700 rounded-md z-0 translate-x-3 translate-y-3" />
 
               {/* Profile image */}
               <img
                 src={profilePic}
                 alt="Image of Rama"
-                className="relative w-80 h-96 object-cover rounded-md z-10"
+                className="relative w-full max-w-[320px] h-[400px] object-cover rounded-md z-10"
               />
             </div>
           </div>
