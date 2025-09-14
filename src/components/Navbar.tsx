@@ -10,7 +10,7 @@ const navItems = [
 export default function Navbar() {
   return (
     <header className="bg-pink-200 shadow-md sticky top-0 z-50">
-      <nav className="max-w-7xl mx-auto px-4 py-6 flex items-center justify-between">
+      <nav className="max-w-full mx-auto px-10 py-6 flex items-center justify-between">
         <div className="text-xl font-bold text-pink-800">Rama Khabbaz 🌷</div>
         <ul className="flex space-x-6">
           {navItems.map((item) => (
