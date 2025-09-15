@@ -5,7 +5,6 @@ import guthealthhifi2 from "../assets/guthealthhifi2.png";
 import guthealthhifi3 from "../assets/guthealthhifi3.png";
 import portfolioHifi from "../assets/portfolioHifi.png";
 import portfolioLofi from "../assets/portfolioLofi.png";
-import portfolioFinal from "../assets/portfolioFinal.png";
 import cooking1 from "../assets/cookingHiFi1.png";
 import cooking2 from "../assets/cookingHiFi2.png";
 import kahoothifi1 from "../assets/kahoothifi1.png";
@@ -13,16 +12,35 @@ import kahoothifi2 from "../assets/kahoothifi2.png";
 import kahootlofi1 from "../assets/kahootlofi1.png";
 import kahootlofi2 from "../assets/kahootlofi2.png";
 import kahootlofi3 from "../assets/kahootlofi3.png";
+import { useEffect, useState } from "react";
 
 export default function Work() {
+  const [isNearFooter, setIsNearFooter] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const footer = document.getElementById("footer");
+      if (!footer) return;
+
+      const footerTop = footer.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      // Adjust the threshold based on how close to footer you want the button to stop
+      setIsNearFooter(footerTop < windowHeight + 20);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <section className="bg-pink-100 min-h-screen px-6 py-16">
+    <section className="relative bg-pink-100 min-h-screen px-6 py-16">
       <div className="max-w-6xl mx-auto">
         {/* Title Box with Shadow */}
         <div className="relative max-w-7xl mx-auto mb-12">
           <div className="absolute inset-0 translate-x-2 translate-y-2 bg-pink-800 rounded-xl z-0" />
           <div className="relative bg-pink-300 text-center rounded-xl px-6 py-4 z-10 shadow-md">
-            <h1 className="text-4xl font-bold text-gray-700">My Work</h1>
+            <h1 className="text-4xl font-bold text-gray-700">My Work  👩‍💻</h1>
           </div>
         </div>
 
@@ -462,7 +480,9 @@ export default function Work() {
       {/* Back to Top Button */}
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        className="fixed bottom-6 right-6 bg-pink-800 hover:bg-pink-900 text-gray-200 px-4 py-2 rounded-full shadow-lg transition-colors duration-200 z-50"
+        className={`${
+          isNearFooter ? "absolute bottom-16" : "fixed bottom-6"
+        } right-6 bg-pink-800 hover:bg-pink-900 text-white px-4 py-2 rounded-full shadow-lg transition-all duration-200 z-50`}
         aria-label="Back to top"
       >
         ↑ Top
