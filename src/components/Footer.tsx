@@ -20,7 +20,7 @@ export default function Footer() {
             <span className="text-gray-700 font-medium">Email 📧</span>
             <a
               href="mailto:ramakhabbaz@gmail.com"
-              className="text-pink-800 hover:underline text-right italic"
+              className="text-pink-800 text-right italic underline hover:text-pink-900"
             >
               ramakhabbaz@gmail.com
             </a>
@@ -33,7 +33,7 @@ export default function Footer() {
               href="https://linkedin.com/in/rama-khabbaz"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-pink-800 hover:underline text-right italic"
+              className="text-pink-800 underline hover:text-pink-900 text-right italic"
             >
               linkedin.com/in/rama-khabbaz
             </a>
