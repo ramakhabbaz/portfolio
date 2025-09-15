@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         {/* Right section: Contact links */}
-        <div className="w-full md:w-auto space-y-2">
+        <div className="w-full md:w-auto space-y-2 text-sm md:text-base">
           {/* Email row */}
           <div className="flex justify-between w-full md:w-96">
             <span className="text-gray-700 font-medium">Email 📧</span>
