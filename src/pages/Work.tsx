@@ -26,8 +26,45 @@ export default function Work() {
           </div>
         </div>
 
+        {/* Table of Contents */}
+        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:px-10 md:py-6 mb-8 relative">
+          <h2 className="text-2xl font-bold text-gray-700 mb-4">
+            Table of Contents
+          </h2>
+          <ul className="list-inside text-lg text-pink-800 underline">
+            <li>
+              <a href="#guthealth" className="hover:text-pink-900">
+                Gut Health App
+              </a>
+            </li>
+            <li>
+              <a href="#portfolio" className="hover:text-pink-900">
+                Portfolio Website
+              </a>
+            </li>
+            <li>
+              <a href="#kahoot" className="hover:text-pink-900">
+                Kahoot Recreation Website
+              </a>
+            </li>
+            <li>
+              <a href="#cooking" className="hover:text-pink-900">
+                Cooking App
+              </a>
+            </li>
+            <li>
+              <a href="#cancer" className="hover:text-pink-900">
+                Cancer Detection Website
+              </a>
+            </li>
+          </ul>
+        </div>
+
         {/* Project Card Gut Health Website */}
-        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
+        <div
+          id="guthealth"
+          className="scroll-mt-[100px] bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative"
+        >
           <h2 className="text-2xl font-bold text-gray-700 mb-2">
             Gut Health App
           </h2>
@@ -122,7 +159,10 @@ export default function Work() {
         </div>
 
         {/* Project Card Portfolio Website */}
-        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
+        <div
+          id="portfolio"
+          className="scroll-mt-[100px] bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative"
+        >
           <h2 className="text-2xl font-bold text-gray-700 mb-2">
             <a
               href="https://ramakhabbaz-portfolio.netlify.app/"
@@ -224,7 +264,10 @@ export default function Work() {
         </div>
 
         {/* Project Card Kahoot Recreation Website */}
-        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
+        <div
+          id="kahoot"
+          className="scroll-mt-[100px] bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative"
+        >
           <h2 className="text-2xl font-bold text-gray-700 mb-2">
             Kahoot Recreation Website
           </h2>
@@ -318,7 +361,10 @@ export default function Work() {
         </div>
 
         {/* Project Card Cooking App */}
-        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
+        <div
+          id="cooking"
+          className="scroll-mt-[100px] bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative"
+        >
           <h2 className="text-2xl font-bold text-gray-700 mb-2">Cooking App</h2>
           <p className="text-sm text-gray-600 italic mb-4">April 2024</p>
           <p className="text-lg text-gray-700 mb-6">
@@ -375,7 +421,10 @@ export default function Work() {
         </div>
 
         {/*  Project Card Cancer Detection Website */}
-        <div className="bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative">
+        <div
+          id="cancer"
+          className="scroll-mt-[100px] bg-pink-300 shadow-md rounded-xl p-6 md:p-10 mb-12 relative"
+        >
           <h2 className="text-2xl font-bold text-gray-700 mb-2">
             <a
               href="https://github.com/gt-big-data/cancer-detection"
@@ -409,6 +458,15 @@ export default function Work() {
           </p>
         </div>
       </div>
+
+      {/* Back to Top Button */}
+      <button
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        className="fixed bottom-6 right-6 bg-pink-800 hover:bg-pink-900 text-gray-200 px-4 py-2 rounded-full shadow-lg transition-colors duration-200 z-50"
+        aria-label="Back to top"
+      >
+        ↑ Top
+      </button>
     </section>
   );
 }
