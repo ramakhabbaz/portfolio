@@ -13,8 +13,8 @@ export default function About() {
               Hi, I’m Rama Khabbaz! I’m passionate about front-end development
               and UX design, and building interfaces that solve real problems
               excites me. I earned my B.S. in Computer Science from Georgia Tech
-              and am currently pursuing my Master’s in Human Computer
-              Interaction.
+              and am currently pursuing my Master’s in CS with a concentration
+              in Human Computer Interaction.
             </p>
             <p className="text-lg text-left text-gray-700 mb-4">
               One of my strengths is end-to-end thinking, carefully considering
@@ -24,21 +24,21 @@ export default function About() {
               new concepts quickly and enjoy challenging myself to step outside
               my comfort zone through new programming languages and courses. I'm
               currently a research assistant for the Ubicomp Health & Wellness
-              Lab at Georgia Tech with Dr. Arriaga, where I'm further enjoying
-              the act of acquiring knowledge, with a focus on user-centered
-              work. We are working to create technology that addresses health &
-              wellness challenges, centered around patient engagement, point of
-              care, and continuity of care.
+              Lab at Georgia Tech with Dr. Arriaga, where I've had the
+              opportunity to focus on user-centered work. We are working to
+              create technology that addresses health & wellness challenges,
+              centered around patient engagement, point of care, and continuity
+              of care.
             </p>
             <p className="text-lg text-left text-gray-700">
               Outside of tech, I enjoy reading, working out, and experimenting
               in the kitchen. I also serve as President of the Girls Who Code
-              College Loop at Georgia Tech, I lead social events for members,
-              organize networking opportunities with corporate sponsors, and
-              coordinate volunteer programs where members mentor younger
-              students interested in computer science. Together, these passions
-              keep my life balanced, while continuing to grow as both a leader
-              and a learner.
+              College Loop at Georgia Tech, where I lead social events for
+              members, organize networking opportunities with corporate
+              sponsors, and coordinate volunteer programs where members mentor
+              younger students interested in computer science. Together, these
+              passions keep my life balanced, enabling me to grow as both a
+              leader and a learner.
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function About() {
                   page)
                 </li>
                 <li>👩‍💻 Studying (bonus points if it's at a cafe or library)</li>
-                <li>📚 Reading (especially of fantasy genre)</li>
+                <li>📚 Reading (especially in the fantasy genre)</li>
                 <li>🍵 Taste testing any & all matcha I can find</li>
               </ul>
             </div>
