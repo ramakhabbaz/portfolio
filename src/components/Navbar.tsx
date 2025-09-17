@@ -11,9 +11,12 @@ export default function Navbar() {
   return (
     <header className="bg-pink-200 shadow-md sticky top-0 z-50">
       <nav className="max-w-full mx-auto px-4 md:px-12 py-4 md:py-6 flex flex-row items-center justify-between flex-wrap">
-        {/* Left: Name*/}
-        <div className="text-xl font-bold text-pink-800 mb-2 md:mb-0">
-          Rama Khabbaz 🌷
+        {/* Left: Name & Slogan */}
+        <div className="flex flex-col">
+          <div className="text-xl font-bold text-pink-800">Rama Khabbaz 🌷</div>
+          <div className="text-sm text-gray-600 italic mb-3 md:mb-0">
+            Design-minded. Code-powered. User-driven.
+          </div>
         </div>
         {/* Right: Navbar */}
         <ul className="flex flex-row flex-wrap gap-4 md:gap-6 justify-end">

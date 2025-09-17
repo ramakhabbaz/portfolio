@@ -17,7 +17,7 @@ export default function Home() {
               </h1>
               <p className="text-md md:text-xl text-gray-600 italic">
                 Master’s Student @ Georgia Tech in CS, HCI <br />
-                Aspiring UI/UX Designer & Frontend Developer
+                Aspiring UI/UX Designer | Frontend Developer | Product Manager
               </p>
             </div>
 

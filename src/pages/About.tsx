@@ -10,25 +10,33 @@ export default function About() {
               About Me 🌷
             </h1>
             <p className="text-lg text-left text-gray-700 mb-4">
-              Hi, I’m Rama Khabbaz! I’m passionate about front-end development
-              and UX design, and building interfaces that solve real problems
-              excites me. I earned my B.S. in Computer Science from Georgia Tech
-              and am currently pursuing my Master’s in CS with a concentration
-              in Human Computer Interaction.
+              Hi, I’m Rama Khabbaz! I’m passionate about building technology
+              that starts with the user—understanding how people think, what
+              they need, and how they engage with products. Whether through
+              front-end development, UX design, or product strategy, I’m excited
+              by the challenge of translating user insights into interfaces and
+              experiences that solve real problems.
+            </p>
+
+            <p className="text-lg text-left text-gray-700 mb-4">
+              I earned my B.S. in Computer Science from Georgia Tech and am
+              currently pursuing my Master’s in CS with a concentration in Human
+              Computer Interaction. One of my strengths is end-to-end thinking,
+              carefully considering how users engage with a product to ensure
+              every detail creates a seamless experience. I bring a high level
+              of organization and attention to detail to everything I do, and
+              I’m always eager to learn and grow. I pick up new concepts quickly
+              and enjoy challenging myself to step outside my comfort zone
+              through new programming languages and courses.
             </p>
             <p className="text-lg text-left text-gray-700 mb-4">
-              One of my strengths is end-to-end thinking, carefully considering
-              how users engage with a product to create seamless experiences. I
-              bring a high level of organization and attention to detail to
-              everything I do, and I’m always eager to learn and grow. I pick up
-              new concepts quickly and enjoy challenging myself to step outside
-              my comfort zone through new programming languages and courses. I'm
-              currently a research assistant for the Ubicomp Health & Wellness
-              Lab at Georgia Tech with Dr. Arriaga, where I've had the
-              opportunity to focus on user-centered work. We are working to
-              create technology that addresses health & wellness challenges,
-              centered around patient engagement, point of care, and continuity
-              of care.
+              Currently, I'm a research assistant for the Ubicomp Health &
+              Wellness Lab at Georgia Tech with Dr. Arriaga, where I've had the
+              opportunity to focus on user-centered work to support health and
+              wellness issues, such as nurse burnout. Our work emphasizes
+              patient engagement, point of care, and continuity of care through
+              projects that deepen my interest in designing technology that
+              makes a real impact on people’s lives.
             </p>
             <p className="text-lg text-left text-gray-700">
               Outside of tech, I enjoy reading, working out, and experimenting
@@ -36,9 +44,9 @@ export default function About() {
               College Loop at Georgia Tech, where I lead social events for
               members, organize networking opportunities with corporate
               sponsors, and coordinate volunteer programs where members mentor
-              younger students interested in computer science. Together, these
-              passions keep my life balanced, enabling me to grow as both a
-              leader and a learner.
+              younger students interested in computer science. These experiences
+              continue to shape me as both a leader and a learner, driven by a
+              commitment to people first, whether that’s users or my community.
             </p>
           </div>
         </div>

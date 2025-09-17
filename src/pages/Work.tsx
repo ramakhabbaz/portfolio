@@ -291,7 +291,7 @@ export default function Work() {
           </h2>
           <p className="text-sm text-gray-600 italic mb-4">April 2025</p>
           <p className="text-lg text-gray-700 mb-2">
-            Within a group with three of my peers in CS 6460: Education
+            With a group with three of my peers in CS 6460: Education
             Technology, we recreated Kahoot to address income and racial
             inequalities to facilitate better learning. Features we added
             include an accuracy mode that emphasizes answer accuracy rather than
@@ -386,7 +386,7 @@ export default function Work() {
           <h2 className="text-2xl font-bold text-gray-700 mb-2">Cooking App</h2>
           <p className="text-sm text-gray-600 italic mb-4">April 2024</p>
           <p className="text-lg text-gray-700 mb-6">
-            Within a group with three of my peers in CS 3751: Intro to UI
+            With a group with three of my peers in CS 3751: Intro to UI
             Design, we created a Figma prototype for an app that provides
             detailed cooking guidelines for beginners and curated recipes based
             on ingredient inventory. The goal was to address the issue of
