@@ -90,11 +90,15 @@ export default function Work() {
           <p className="text-lg text-gray-700 mb-6">
             At age 16, I was diagnosed with ulcerative colitis. After years of
             struggling with symptoms and feeling alone, I realized an app could
-            aid those with gut health issues. The prototype of my app includes
-            features to track healthy habits, learn more about gut health,
-            journal daily about side effects, find recipes, and socialize with
-            others. The final app is still in progress. Read on to see the
-            development of my prototypes in Figma.
+            empower others facing similar gut health challenges. My prototype
+            focuses on helping users take control of their health by tracking
+            healthy habits, learning more about gut health, journaling daily
+            about symptoms, finding recipes, and connecting with others.
+            Currently, I’m iterating in Figma with the goal of building an app
+            that not only supports daily well-being but also creates a sense of
+            belonging for other people with chronic gut health issues.
+            <br />
+            Read on to see the development of my prototypes in Figma.
           </p>
 
           <hr className="border-pink-800 mb-6" />
@@ -193,11 +197,11 @@ export default function Work() {
           </h2>
           <p className="text-sm text-gray-600 italic mb-4">September 2025</p>
           <p className="text-lg text-gray-700 mb-2">
-            I designed and coded this website as a personal portfolio to
-            showcase my professional experiences and allow viewers to connect
-            with me on a more personal level. My goal was to develop an
-            aesthetically pleasing site that reflected both my personality and
-            technical skills.
+            I designed and coded this website to give recuiters and peers a
+            clear, engaging way to understand my professional and technical
+            journey, while also making it personable and approachable. My goal
+            was to develop an aesthetically pleasing site that reflected both my
+            personality and technical skills.
             <br />I designed the layout and flow of this site using Figma. I
             coded it using React, TypeScript, Vite, and Tailwind CSS, with the
             help of generative AI. Using the inspect tool, I fixed the layout to
@@ -207,7 +211,7 @@ export default function Work() {
             modularity, and deployment using Netlify.
           </p>
           <p className="text-lg text-gray-700 mb-6">
-            See my code in Github{" "}
+            👉 See my code in Github{" "}
             <a
               href="https://github.com/ramakhabbaz/portfolio"
               target="_blank"
@@ -216,7 +220,8 @@ export default function Work() {
             >
               here
             </a>
-            . Access my website{" "}
+            .<br />
+            👉 Access my website{" "}
             <a
               href="https://ramakhabbaz-portfolio.netlify.app/"
               target="_blank"
@@ -304,11 +309,13 @@ export default function Work() {
             for individualized help. <br />
             We each did personas, contextual inquiries, affinity diagramming,
             and storyboards to better understand what needed to be done. Then,
-            we began iterating and performing user testing on our prototypes. I
-            was responsible for the explanation feature, in which I attempted to
-            mimic the Kahoot layout to the best of my ability, while also
-            adapting to the new feature and considering UI suggestions from my
-            user tests.
+            we began iterating and performing user testing on our prototypes.
+            <br />I led the explanation feature, ensuring it felt familiar to
+            Kahoot users while providing clear, immediate feedback to improve
+            learning. Through user testing, I incorporated feedback to make the
+            interface intuitive and supportive. This project reinforced my
+            belief that design can reduce inequities and give all learners a
+            fair chance to succeed.
           </p>
 
           <hr className="border-pink-800 mb-6" />
@@ -386,19 +393,20 @@ export default function Work() {
           <h2 className="text-2xl font-bold text-gray-700 mb-2">Cooking App</h2>
           <p className="text-sm text-gray-600 italic mb-4">April 2024</p>
           <p className="text-lg text-gray-700 mb-6">
-            With a group with three of my peers in CS 3751: Intro to UI
-            Design, we created a Figma prototype for an app that provides
-            detailed cooking guidelines for beginners and curated recipes based
-            on ingredient inventory. The goal was to address the issue of
-            students' financial and time constraints regarding cooking healthy
-            meals.
+            With a group with three of my peers in CS 3751: Intro to UI Design,
+            we created a Figma prototype for an app that provides detailed
+            cooking guidelines for beginners and curated recipes based on
+            ingredient inventory. The goal was to address the issue of students'
+            financial and time constraints regarding cooking healthy meals.
             <br />
-            As a team, we conducted comprehensive user research including
-            interviews with potential users to evaluate needs, as well as
-            heuristic evaluations and user testing for design iteration. Each
-            team member was responsible for designing and prototyping a core
-            feature of the app. My focus was on developing the beginner-friendly
-            cooking guidelines to support those who are new in the kitchen.
+            We each conducted comprehensive user research including interviews
+            with potential users to evaluate needs, as well as heuristic
+            evaluations and user testing for design iteration. I focused on
+            designing step-by-step, beginner-friendly cooking guidelines to help
+            new cooks feel confident in the kitchen. By grounding the design in
+            user interviews and heuristic testing, our team created an app that
+            saves students time and money and empowers them to make healthy
+            meals without stress.
           </p>
 
           <hr className="border-pink-800 mb-6" />
@@ -455,12 +463,15 @@ export default function Work() {
           </h2>
           <p className="text-sm text-gray-600 italic mb-4">May 2023</p>
           <p className="text-lg text-gray-700 mb-2">
-            I worked on the data visualization team to create a website for the
-            cancer detection project within Big Data Big Impact at Georgia Tech.
-            Our goal was to create a program that made it easier for doctors in
-            underprivileged areas to assess cancer results.
-            <br /> I personally implemented the critical tumor image upload
-            button to provide an accessibility-friendly user experience.
+            As part of the data visualization team for the cancer detection
+            project within Georgia Tech’s Big Data Big Impact, I worked on a
+            cancer detection tool designed to support doctors in under-resourced
+            areas. The goal was to make test results easier to interpret quickly
+            and accurately.
+            <br /> I implemented the tumor image upload feature, with an
+            emphasis on accessibility and usability. This ensured that
+            clinicians, especially those with limited resources, could
+            seamlessly interact with the tool.
           </p>
           <p className="text-lg text-gray-700">
             See our code in Github{" "}
