@@ -49,7 +49,7 @@ export default function Work() {
           <h2 className="text-2xl font-bold text-gray-700 mb-4">
             Table of Contents
           </h2>
-          <ul className="list-inside text-lg text-pink-800 underline">
+          <ul className="list-inside text-lg text-pink-800 underline list-disc">
             <li>
               <a href="#guthealth" className="hover:text-pink-900">
                 Gut Health App
@@ -119,29 +119,33 @@ export default function Work() {
               </a>
             </h3>
 
-            <div className="flex flex-wrap gap-4 justify-center mt-4">
-              <a
-                href={guthealthlofi1}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={guthealthlofi1}
-                  alt="Gut Health App Lo-Fi Image 1"
-                  className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
-              <a
-                href={guthealthlofi2}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={guthealthlofi2}
-                  alt="Gut Health App Lo-Fi Image 2"
-                  className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200">
+                <a
+                  href={guthealthlofi1}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={guthealthlofi1}
+                    alt="Gut Health App Lo-Fi Image 1"
+                    className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
+                  />
+                </a>
+              </div>
+              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200">
+                <a
+                  href={guthealthlofi2}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={guthealthlofi2}
+                    alt="Gut Health App Lo-Fi Image 2"
+                    className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
+                  />
+                </a>
+              </div>
             </div>
           </div>
 
@@ -157,25 +161,22 @@ export default function Work() {
               </a>
             </h3>
 
-            <div className="flex flex-wrap justify-center gap-2 mt-4">
-              <img
-                src={guthealthhifi1}
-                alt="Gut Health App Hi-Fi Image 1"
-                className="w-[350px] max-w-full h-auto rounded shadow hover:scale-105 transition-transform duration-200 cursor-pointer"
-                onClick={() => window.open(guthealthhifi1, "_blank")}
-              />
-              <img
-                src={guthealthhifi2}
-                alt="Gut Health App Hi-Fi Image 2"
-                className="w-[300px] max-w-full h-auto rounded shadow hover:scale-105 transition-transform duration-200 cursor-pointer"
-                onClick={() => window.open(guthealthhifi2, "_blank")}
-              />
-              <img
-                src={guthealthhifi3}
-                alt="Gut Health App Hi-Fi Image 3"
-                className="w-[300px] max-w-full h-auto rounded shadow hover:scale-105 transition-transform duration-200 cursor-pointer"
-                onClick={() => window.open(guthealthhifi3, "_blank")}
-              />
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+              {[guthealthhifi1, guthealthhifi2, guthealthhifi3].map(
+                (src, i) => (
+                  <div
+                    key={i}
+                    className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200 flex items-center justify-center"
+                  >
+                    <img
+                      src={src}
+                      alt={`Gut Health App Hi-Fi Image ${i + 1}`}
+                      className="w-full max-h-80 object-contain rounded cursor-pointer"
+                      onClick={() => window.open(src, "_blank")}
+                    />
+                  </div>
+                )
+              )}
             </div>
           </div>
         </div>
@@ -198,17 +199,25 @@ export default function Work() {
           <p className="text-sm text-gray-600 italic mb-4">September 2025</p>
           <p className="text-lg text-gray-700 mb-2">
             I designed and coded this website to give recuiters and peers a
-            clear, engaging way to understand my professional and technical
+            clear, user-friendly way to understand my professional and technical
             journey, while also making it personable and approachable. My goal
             was to develop an aesthetically pleasing site that reflected both my
-            personality and technical skills.
-            <br />I designed the layout and flow of this site using Figma. I
-            coded it using React, TypeScript, Vite, and Tailwind CSS, with the
-            help of generative AI. Using the inspect tool, I fixed the layout to
-            adapt to phones as well (although computers are recommended at this
-            stage of the site). This project helped me strengthen my front-end
-            development skills and apply best practices in UI/UX, code
-            modularity, and deployment using Netlify.
+            personality and technical skills. Before starting, I researched
+            several portfolio sites to understand layouts, flows, and design
+            patterns that feel intuitive for visitors. Throughout the build, I
+            paid close attention to interaction details, for example, adding a
+            “back to top” button to make navigation smoother.
+            <br />I designed the layout and flow of this site in Figma and built
+            it using React, TypeScript, Vite, and Tailwind CSS, with the help of
+            generative AI. I continuously tested and refined the site from a
+            user’s perspective, using the browser’s inspect tool to analyze and
+            improve its adaptability on phones as well as desktops (though
+            computers are recommended at this stage).
+            <br />
+            This project helped me strengthen my front-end development skills
+            and apply best practices in UI/UX, code modularity, and deployment
+            using Netlify, as well as deepened my determination to keep users at
+            the center of every design decision.
           </p>
           <p className="text-lg text-gray-700 mb-6">
             👉 See my code in Github{" "}
@@ -251,14 +260,20 @@ export default function Work() {
               </a>
             </h3>
 
-            <div className="flex flex-wrap gap-4 justify-center">
-              <a href={portfolioLofi} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={portfolioLofi}
-                  alt="Portfolio Website Lo-Fi Image"
-                  className="rounded shadow w-[300px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200">
+                <a
+                  href={portfolioLofi}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={portfolioLofi}
+                    alt="Portfolio Website Lo-Fi Image"
+                    className="rounded shadow w-full max-h-48 hover:scale-105 transition-transform duration-200 object-contain rounded"
+                  />
+                </a>
+              </div>
             </div>
           </div>
 
@@ -273,15 +288,20 @@ export default function Work() {
                 Hi-Fi Prototype
               </a>
             </h3>
-
-            <div className="flex flex-wrap gap-4 justify-center">
-              <a href={portfolioHifi} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={portfolioHifi}
-                  alt="Portfolio Website Hi-Fi Image"
-                  className="rounded shadow w-[300px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200">
+                <a
+                  href={portfolioHifi}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={portfolioHifi}
+                    alt="Portfolio Website Hi-Fi Image"
+                    className="rounded shadow w-full max-h-48 hover:scale-105 transition-transform duration-200 object-contain rounded"
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -332,55 +352,50 @@ export default function Work() {
               </a>
             </h3>
 
-            <div className="flex flex-wrap justify-center gap-2 mt-4">
-              <img
-                src={kahootlofi1}
-                alt="Kahoot Recreation Website Mid-Fi Image 1"
-                className="w-[350px] max-w-full h-auto rounded shadow hover:scale-105 transition-transform duration-200 cursor-pointer"
-                onClick={() => window.open(kahootlofi1, "_blank")}
-              />
-              <img
-                src={kahootlofi2}
-                alt="Kahoot Recreation Website Mid-Fi Image 2"
-                className="w-[300px] max-w-full h-auto rounded shadow hover:scale-105 transition-transform duration-200 cursor-pointer"
-                onClick={() => window.open(kahootlofi2, "_blank")}
-              />
-              <img
-                src={kahootlofi3}
-                alt="Kahoot Recreation Website Mid-Fi Image 3"
-                className="w-[300px] max-w-full h-auto rounded shadow hover:scale-105 transition-transform duration-200 cursor-pointer"
-                onClick={() => window.open(kahootlofi3, "_blank")}
-              />
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+              {[kahootlofi1, kahootlofi2, kahootlofi3].map((src, i) => (
+                <div
+                  key={i}
+                  className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200"
+                >
+                  <img
+                    src={src}
+                    alt={`Kahoot Mid-Fi Image ${i + 1}`}
+                    className="w-full max-h-56 object-contain rounded cursor-pointer"
+                    onClick={() => window.open(src, "_blank")}
+                  />
+                </div>
+              ))}
             </div>
-          </div>
 
-          {/* Hi-Fi Section */}
-          <div className="mb-8">
-            <h3 className="text-lg text-font-semibold underline text-pink-800 hover:text-pink-900 italic">
-              <a
-                href="https://www.figma.com/proto/0d7uWRGfhMP8RJofTAudni/Kahoot-prototype?node-id=0-1&t=u9ytGkpInsJegEHv-1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Hi-Fi Prototype
-              </a>
-            </h3>
+            {/* Hi-Fi Section */}
+            <div className="mb-8">
+              <h3 className="text-lg text-font-semibold underline text-pink-800 hover:text-pink-900 italic">
+                <a
+                  href="https://www.figma.com/proto/0d7uWRGfhMP8RJofTAudni/Kahoot-prototype?node-id=0-1&t=u9ytGkpInsJegEHv-1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Hi-Fi Prototype
+                </a>
+              </h3>
 
-            <div className="flex flex-wrap gap-4 justify-center mt-4">
-              <a href={kahoothifi1} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={kahoothifi1}
-                  alt="Kahoot Recreation Website Hi-Fi Image 1"
-                  className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
-              <a href={kahoothifi2} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={kahoothifi2}
-                  alt="Kahoot Recreation Website Hi-Fi Image 2"
-                  className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+                {[kahoothifi1, kahoothifi2].map((src, i) => (
+                  <div
+                    key={i}
+                    className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200 flex items-center justify-center"
+                  >
+                    <a href={src} target="_blank" rel="noopener noreferrer">
+                      <img
+                        src={src}
+                        alt={`Kahoot Hi-Fi Image ${i + 1}`}
+                        className="max-h-56 w-auto object-contain rounded"
+                      />
+                    </a>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -427,21 +442,21 @@ export default function Work() {
               </a>
             </h3>
 
-            <div className="flex flex-wrap gap-4 justify-center mt-4">
-              <a href={cooking1} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={cooking1}
-                  alt="Cooking App Hi-Fi Image 1"
-                  className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
-              <a href={cooking2} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={cooking2}
-                  alt="Cooking App Hi-Fi Image 2"
-                  className="rounded shadow w-[450px] h-auto hover:scale-105 transition-transform duration-200"
-                />
-              </a>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
+              {[cooking1, cooking2].map((src, i) => (
+                <div
+                  key={i}
+                  className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200"
+                >
+                  <a href={src} target="_blank" rel="noopener noreferrer">
+                    <img
+                      src={src}
+                      alt={`Cooking App Hi-Fi Image ${i + 1}`}
+                      className="w-full max-h-48 object-contain rounded"
+                    />
+                  </a>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -474,7 +489,7 @@ export default function Work() {
             seamlessly interact with the tool.
           </p>
           <p className="text-lg text-gray-700">
-            See our code in Github{" "}
+            👉 See our code in Github{" "}
             <a
               href="https://github.com/gt-big-data/cancer-detection"
               target="_blank"
