@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex flex-col">
           <div className="text-xl font-bold text-pink-800">Rama Khabbaz 🌷</div>
           <div className="text-sm text-gray-600 italic mb-3 md:mb-0">
-            Design-minded. Code-powered. User-driven.
+            User-driven. Design-minded. Code-powered.
           </div>
         </div>
         {/* Right: Navbar */}
