@@ -120,7 +120,7 @@ export default function Work() {
             </h3>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6">
-              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200">
+              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200 flex items-center justify-center">
                 <a
                   href={guthealthlofi1}
                   target="_blank"
@@ -133,7 +133,7 @@ export default function Work() {
                   />
                 </a>
               </div>
-              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200">
+              <div className="bg-white rounded-lg shadow p-3 hover:scale-105 transition-transform duration-200 flex items-center justify-center">
                 <a
                   href={guthealthlofi2}
                   target="_blank"
@@ -217,7 +217,8 @@ export default function Work() {
             This project helped me strengthen my front-end development skills
             and apply best practices in UI/UX, code modularity, and deployment
             using Netlify, as well as deepened my determination to keep users at
-            the center of every design decision.
+            the center of every design decision. <br />
+            Future iterations are in the works!
           </p>
           <p className="text-lg text-gray-700 mb-6">
             👉 See my code in Github{" "}
@@ -352,7 +353,7 @@ export default function Work() {
               </a>
             </h3>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6 mb-6">
               {[kahootlofi1, kahootlofi2, kahootlofi3].map((src, i) => (
                 <div
                   key={i}
