@@ -13,7 +13,7 @@ export default function About() {
               Hi, I’m Rama Khabbaz! I’m passionate about building technology
               that starts with the user—understanding how people think, what
               they need, and how they engage with products. Whether through
-              front-end development, UX design, or product strategy, I’m excited
+              frontend development, UX design, or product strategy, I’m excited
               by the challenge of translating user insights into interfaces and
               experiences that solve real problems.
             </p>
