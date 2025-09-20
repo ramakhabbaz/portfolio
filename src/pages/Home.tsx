@@ -1,9 +1,16 @@
 import profilePic from "../assets/profile-pic.jpg";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
     <section className="min-h-screen bg-pink-100 flex items-center justify-center px-6 py-12 md:">
-      <div className="relative max-w-6xl w-full">
+      <motion.div
+        initial={{ opacity: 0, y: -50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ once: true }}
+        className="relative max-w-6xl w-full"
+      >
         {/* Shadow card behind main content card */}
         <div className="absolute inset-0 translate-x-3 translate-y-3 rounded-xl z-0 bg-pink-800" />
 
@@ -35,7 +42,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

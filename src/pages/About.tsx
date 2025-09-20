@@ -1,14 +1,20 @@
 export default function About() {
   return (
-    <section className="bg-pink-100 min-h-screen px-6 py-16">
+    <section
+      id="about"
+      className="scroll-mt-24 bg-pink-100 min-h-screen px-6 py-16"
+    >
       <div className="max-w-4xl mx-auto space-y-12">
         {/* About Me Card*/}
         <div className="relative">
-          <div className="absolute inset-0 translate-x-2 translate-y-2 rounded-xl bg-pink-800 z-0" />
-          <div className="relative bg-pink-300 rounded-xl p-8 shadow-md z-10 text-center">
-            <h1 className="text-4xl font-bold text-gray-700 mb-6">
-              About Me 🌷
-            </h1>
+          {/* Title Box with Shadow */}
+          <div className="relative max-w-7xl mx-auto mb-12">
+            <div className="absolute inset-0 translate-x-2 translate-y-2 bg-pink-800 rounded-xl z-0" />
+            <div className="relative bg-pink-300 text-center rounded-xl px-6 py-4 z-10 shadow-md">
+              <h1 className="text-4xl font-bold text-gray-700">About Me 🌷</h1>
+            </div>
+          </div>
+          <div className="bg-pink-300 shadow-md rounded-xl p-6 md:px-10 md:py-6 mb-8 relative">
             <p className="text-lg text-left text-gray-700 mb-4">
               Hi, I’m Rama Khabbaz! I’m passionate about building technology
               that starts with the user—understanding how people think, what
@@ -95,7 +101,7 @@ export default function About() {
 
             <p className="mt-6 text-gray-700 text-lg italic">
               <a
-                href="/contact"
+                href="#contact"
                 className="underline text-pink-800 hover:text-pink-900"
               >
                 Contact me ↗
