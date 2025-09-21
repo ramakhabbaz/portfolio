@@ -222,8 +222,8 @@ export default function Work() {
                 Before starting, I researched several portfolio sites to
                 understand layouts, flows, and design patterns that feel
                 intuitive for visitors. Throughout the build, I paid close
-                attention to interaction details, for example, adding a “back to
-                top” button to make navigation smoother.
+                attention to interaction details, for example, adding a carousel
+                of cards for my work to make navigation smoother.
                 <br />I designed the layout and flow of this site in Figma and
                 built it using React, TypeScript, Vite, and Tailwind CSS, with
                 the help of generative AI. I continuously tested and refined the
@@ -232,9 +232,9 @@ export default function Work() {
                 desktops (though computers are recommended at this stage).
                 <br />
                 This project helped me strengthen my front-end development
-                skills and apply best practices in UI/UX, code modularity, and
-                deployment using Netlify, as well as deepened my determination
-                to keep users at the center of every design decision. <br />
+                skills, apply best practices in UI/UX, and deepen my
+                determination to keep users at the center of every design
+                decision. <br />
                 Future iterations are in the works!
               </p>
               <p className="text-lg text-gray-700 mb-6">
@@ -346,7 +346,7 @@ export default function Work() {
                 certifications to help students with gaps in knowledge, and
                 discussion communties for users to discuss topics for
                 individualized help. <br />
-                We each did personas, contextual inquiries, affinity
+                We each created personas, contextual inquiries, affinity
                 diagramming, and storyboards to better understand what needed to
                 be done. Then, we began iterating and performing user testing on
                 our prototypes.
