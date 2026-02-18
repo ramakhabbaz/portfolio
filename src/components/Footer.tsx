@@ -13,7 +13,9 @@ export default function Footer() {
         className="max-w-full mx-auto flex flex-col md:flex-row justify-between items-center gap-6"
       >
         <div className="flex items-center gap-4">
-          <span className="text-3xl" aria-hidden>🌷</span>
+          <span className="text-3xl" aria-hidden>
+            🌷
+          </span>
           <div>
             <h2 className="font-display text-xl font-semibold text-pink-900">
               Get In Touch

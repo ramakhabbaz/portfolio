@@ -23,7 +23,7 @@ export default function Contact() {
           form.reset();
           setSubmitting(false);
           alert(
-            "Thank you for your message!\nI'll get back to you as soon as I can. 😊"
+            "Thank you for your message!\nI'll get back to you as soon as I can. 😊",
           );
         } else {
           setSubmitting(false);

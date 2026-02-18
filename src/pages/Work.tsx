@@ -210,11 +210,29 @@ function GutHealthContent() {
           Lo-Fi Prototype
         </a>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
-          <a href={guthealthlofi1} target="_blank" rel="noopener noreferrer" className="bg-white rounded-lg shadow p-3 hover:scale-[1.02] transition-transform">
-            <img src={guthealthlofi1} alt="Gut Health App Lo-Fi 1" className="rounded w-full h-auto object-contain max-h-80" />
+          <a
+            href={guthealthlofi1}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-lg shadow p-3 hover:scale-[1.02] transition-transform"
+          >
+            <img
+              src={guthealthlofi1}
+              alt="Gut Health App Lo-Fi 1"
+              className="rounded w-full h-auto object-contain max-h-80"
+            />
           </a>
-          <a href={guthealthlofi2} target="_blank" rel="noopener noreferrer" className="bg-white rounded-lg shadow p-3 hover:scale-[1.02] transition-transform">
-            <img src={guthealthlofi2} alt="Gut Health App Lo-Fi 2" className="rounded w-full h-auto object-contain max-h-80" />
+          <a
+            href={guthealthlofi2}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-lg shadow p-3 hover:scale-[1.02] transition-transform"
+          >
+            <img
+              src={guthealthlofi2}
+              alt="Gut Health App Lo-Fi 2"
+              className="rounded w-full h-auto object-contain max-h-80"
+            />
           </a>
         </div>
       </div>
@@ -252,36 +270,73 @@ function PortfolioContent() {
         user-friendly way to understand my professional and technical journey,
         while also making it personable and approachable. My goal was to develop
         an aesthetically pleasing site that reflected both my personality and
-        technical skills. Before starting, I researched several portfolio
-        sites to understand layouts, flows, and design patterns that feel
-        intuitive for visitors. Throughout the build, I paid close attention
-        to interaction details. I designed the layout and flow in Figma and
-        built it using React, TypeScript, Vite, and Tailwind CSS, with the help
-        of generative AI. This project helped me strengthen my front-end
+        technical skills. Before starting, I researched several portfolio sites
+        to understand layouts, flows, and design patterns that feel intuitive
+        for visitors. Throughout the build, I paid close attention to
+        interaction details. I designed the layout and flow in Figma and built
+        it using React, TypeScript, Vite, and Tailwind CSS, with the help of
+        generative AI. This project helped me strengthen my front-end
         development skills and apply best practices in UI/UX.
       </p>
       <p className="text-lg text-gray-700 mb-6">
         👉 See my code on{" "}
-        <a href="https://github.com/ramakhabbaz/portfolio" target="_blank" rel="noopener noreferrer" className="underline text-pink-700 hover:text-pink-800 italic">GitHub</a>
+        <a
+          href="https://github.com/ramakhabbaz/portfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-pink-700 hover:text-pink-800 italic"
+        >
+          GitHub
+        </a>
         . 👉 Access the site{" "}
-        <a href="https://ramakhabbaz-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="underline text-pink-700 hover:text-pink-800 italic">here</a>.
+        <a
+          href="https://ramakhabbaz-portfolio.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-pink-700 hover:text-pink-800 italic"
+        >
+          here
+        </a>
+        .
       </p>
       <hr className="border-pink-300 mb-6" />
       <h3 className="text-xl font-semibold text-gray-700 mb-4">Prototypes</h3>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <a href="https://www.figma.com/design/ilEM8AedFxISEyegc4N7wL/Portfolio?node-id=24-21&t=8H1FAsoxFIPxY7B2-1" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic">Lo-Fi Prototype</a>
+          <a
+            href="https://www.figma.com/design/ilEM8AedFxISEyegc4N7wL/Portfolio?node-id=24-21&t=8H1FAsoxFIPxY7B2-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic"
+          >
+            Lo-Fi Prototype
+          </a>
           <div className="mt-4 bg-white rounded-lg shadow p-3">
             <a href={portfolioLofi} target="_blank" rel="noopener noreferrer">
-              <img src={portfolioLofi} alt="Portfolio Lo-Fi" className="rounded w-full h-auto object-contain max-h-72" />
+              <img
+                src={portfolioLofi}
+                alt="Portfolio Lo-Fi"
+                className="rounded w-full h-auto object-contain max-h-72"
+              />
             </a>
           </div>
         </div>
         <div>
-          <a href="https://www.figma.com/design/teyS0g5SuQgzIeYVcW1Yun/Portfolio-Hi-FI?t=XA3U6tA5JIcsyW1F-1" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic">Hi-Fi Prototype</a>
+          <a
+            href="https://www.figma.com/design/teyS0g5SuQgzIeYVcW1Yun/Portfolio-Hi-FI?t=XA3U6tA5JIcsyW1F-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic"
+          >
+            Hi-Fi Prototype
+          </a>
           <div className="mt-4 bg-white rounded-lg shadow p-3">
             <a href={portfolioHifi} target="_blank" rel="noopener noreferrer">
-              <img src={portfolioHifi} alt="Portfolio Hi-Fi" className="rounded w-full h-auto object-contain max-h-72" />
+              <img
+                src={portfolioHifi}
+                alt="Portfolio Hi-Fi"
+                className="rounded w-full h-auto object-contain max-h-72"
+              />
             </a>
           </div>
         </div>
@@ -300,29 +355,52 @@ function KahootContent() {
         immediate feedback, content resources, Kahoot Certified for teachers,
         and discussion communities. I led the explanation feature, ensuring it
         felt familiar to Kahoot users while providing clear feedback. Through
-        user testing, I made the interface intuitive and supportive. This project
-        reinforced my belief that design can reduce inequities and give all
-        learners a fair chance to succeed.
+        user testing, I made the interface intuitive and supportive. This
+        project reinforced my belief that design can reduce inequities and give
+        all learners a fair chance to succeed.
       </p>
       <hr className="border-pink-300 mb-6" />
       <h3 className="text-xl font-semibold text-gray-700 mb-4">Prototypes</h3>
       <div className="mb-8">
-        <a href="/kahoot.pdf" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic">Mid-Fi Prototype</a>
+        <a
+          href="/kahoot.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic"
+        >
+          Mid-Fi Prototype
+        </a>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-4">
           {[kahootlofi1, kahootlofi2, kahootlofi3].map((src, i) => (
             <div key={i} className="bg-white rounded-lg shadow p-3">
-              <img src={src} alt={`Kahoot Mid-Fi ${i + 1}`} className="w-full max-h-56 object-contain rounded cursor-pointer" onClick={() => window.open(src, "_blank")} />
+              <img
+                src={src}
+                alt={`Kahoot Mid-Fi ${i + 1}`}
+                className="w-full max-h-56 object-contain rounded cursor-pointer"
+                onClick={() => window.open(src, "_blank")}
+              />
             </div>
           ))}
         </div>
       </div>
       <div>
-        <a href="https://www.figma.com/proto/0d7uWRGfhMP8RJofTAudni/Kahoot-prototype?node-id=0-1&t=u9ytGkpInsJegEHv-1" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic">Hi-Fi Prototype</a>
+        <a
+          href="https://www.figma.com/proto/0d7uWRGfhMP8RJofTAudni/Kahoot-prototype?node-id=0-1&t=u9ytGkpInsJegEHv-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic"
+        >
+          Hi-Fi Prototype
+        </a>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
           {[kahoothifi1, kahoothifi2].map((src, i) => (
             <div key={i} className="bg-white rounded-lg shadow p-3">
               <a href={src} target="_blank" rel="noopener noreferrer">
-                <img src={src} alt={`Kahoot Hi-Fi ${i + 1}`} className="max-h-56 w-auto object-contain rounded mx-auto block" />
+                <img
+                  src={src}
+                  alt={`Kahoot Hi-Fi ${i + 1}`}
+                  className="max-h-56 w-auto object-contain rounded mx-auto block"
+                />
               </a>
             </div>
           ))}
@@ -338,20 +416,31 @@ function CookingContent() {
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
         With three peers in CS 3751: Intro to UI Design, we created a Figma
         prototype for an app that provides detailed cooking guidelines for
-        beginners and curated recipes based on ingredient inventory. We conducted
-        user research, interviews, heuristic evaluations, and user testing. I
-        focused on step-by-step, beginner-friendly cooking guidelines. Our
-        team created an app that saves students time and money and empowers
-        them to make healthy meals without stress.
+        beginners and curated recipes based on ingredient inventory. We
+        conducted user research, interviews, heuristic evaluations, and user
+        testing. I focused on step-by-step, beginner-friendly cooking
+        guidelines. Our team created an app that saves students time and money
+        and empowers them to make healthy meals without stress.
       </p>
       <hr className="border-pink-300 mb-6" />
       <h3 className="text-xl font-semibold text-gray-700 mb-4">Prototypes</h3>
-      <a href="https://www.figma.com/proto/lIXXPzO0SyDj93JlQybUrd/Hi-fidelity?node-id=356-4962&starting-point-node-id=356%3A4962&t=2tLfIkS4T3M0tqlF-1" target="_blank" rel="noopener noreferrer" className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic">Hi-Fi Prototype</a>
+      <a
+        href="https://www.figma.com/proto/lIXXPzO0SyDj93JlQybUrd/Hi-fidelity?node-id=356-4962&starting-point-node-id=356%3A4962&t=2tLfIkS4T3M0tqlF-1"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-lg font-semibold underline text-pink-700 hover:text-pink-800 italic"
+      >
+        Hi-Fi Prototype
+      </a>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
         {[cooking1, cooking2].map((src, i) => (
           <div key={i} className="bg-white rounded-lg shadow p-3">
             <a href={src} target="_blank" rel="noopener noreferrer">
-              <img src={src} alt={`Cooking App Hi-Fi ${i + 1}`} className="w-full max-h-48 object-contain rounded" />
+              <img
+                src={src}
+                alt={`Cooking App Hi-Fi ${i + 1}`}
+                className="w-full max-h-48 object-contain rounded"
+              />
             </a>
           </div>
         ))}
@@ -366,13 +455,21 @@ function CancerContent() {
       <p className="text-lg text-gray-700 mb-4 leading-relaxed">
         As part of the data visualization team for Georgia Tech's Big Data Big
         Impact, I worked on a cancer detection tool for doctors in
-        under-resourced areas. I implemented the tumor image upload feature
-        with an emphasis on accessibility and usability so clinicians could
+        under-resourced areas. I implemented the tumor image upload feature with
+        an emphasis on accessibility and usability so clinicians could
         seamlessly interact with the tool.
       </p>
       <p className="text-lg text-gray-700">
         👉 See our code on{" "}
-        <a href="https://github.com/gt-big-data/cancer-detection" target="_blank" rel="noopener noreferrer" className="underline text-pink-700 hover:text-pink-800 italic">GitHub</a>.
+        <a
+          href="https://github.com/gt-big-data/cancer-detection"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline text-pink-700 hover:text-pink-800 italic"
+        >
+          GitHub
+        </a>
+        .
       </p>
     </>
   );
