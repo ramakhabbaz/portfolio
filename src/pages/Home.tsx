@@ -40,15 +40,16 @@ export default function Home() {
                 variants={item}
                 className="font-display text-3xl md:text-5xl font-bold text-pink-900 mb-4"
               >
-                Hi, I'm Rama! <span className="inline-block animate-float">👋</span>
+                Hi, I'm Rama!{" "}
+                <span className="inline-block animate-float">👋</span>
               </motion.h1>
               <motion.p
                 variants={item}
                 className="text-base md:text-xl text-gray-600 italic leading-relaxed"
               >
-                Master's Student @ Georgia Tech in CS, HCI
+                Master's Student @ Georgia Tech in CS-HCI
                 <br />
-                Aspiring UI/UX Designer | Frontend Developer | Product Manager
+                Aspiring Product Manager
               </motion.p>
             </div>
             <div className="md:w-1/2 flex justify-center order-1 md:order-2 relative group">
@@ -72,7 +73,9 @@ export default function Home() {
         transition={{ delay: 1.2, duration: 0.6 }}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
       >
-        <span className="text-xs text-gray-500 uppercase tracking-wider">Scroll</span>
+        <span className="text-xs text-gray-500 uppercase tracking-wider">
+          Scroll
+        </span>
         <motion.div
           animate={{ y: [0, 6, 0] }}
           transition={{ repeat: Infinity, duration: 1.5, ease: "easeInOut" }}
